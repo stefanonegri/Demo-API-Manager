@@ -53,7 +53,7 @@ Deploy as prototype, go to the Dev Portal and try out
 Show the following tabs/features:
 
 TRANSPORT LEVEL SECURITY
-  (to use it: add the certificate Add certificate certificate.crt)
+  (to use it: add the certificate certificate.crt)
 
 APPLICATION LEVEL SECURITY
 
