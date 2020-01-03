@@ -20,4 +20,17 @@ Install WSO2 API Manager APICtl;
   a - Application Policy: 10 per Min; 
   b - Subscription Policy (Guest: 5 per min.)
 ### Import Countries API (Countries_1.0.0.zip)
+Example: apictl import-api -f /Users/stefanonegri/Downloads/Countries_1.0.0.zip -e demo -k
 
+## Developer Experience
+
+### Create new APIs
+Design new API (show the country API just imported; show how to create a new one)
+
+Existing API: (https://petstore.swagger.io/v2/swagger.json; EP: http://petstore.swagger.io/v2)
+
+SOAP Endpoint: (http://ws.cdyne.com/phoneverify/phoneverify.asmx?wsdl; EP:http://ws.cdyne.com/phoneverify/phoneverify.asmx)
+
+GraphQL: (download the schema from: https://api.graph.cool/simple/v1/swapi; EP: the same (TBC))
+
+websocket: (TBC)
