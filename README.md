@@ -82,6 +82,16 @@ Throttling: Throttling: for ((i=1;i<=15;i++)); do sh PetstoreAPI.sh ; done
 Show Alerts
 
 ## Back to Developer Experience
-Create API from command line
+Create API from command line (this sep can be also done upfront as part of the requisites or in the create API step above; use this commands: https://github.com/stefanonegri/Demo-API-Manager/blob/master/scripts/apictl
 
-Show and try versioning and API Products
+Show and try versioning
+show API Products with Countries and Aviation APIs
+
+## ADMIN Exerience
+
+### Show Developer and Consumer Analytics
+### Show Admin Console
+### Show APIM Admin
+
+
+
