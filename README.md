@@ -50,7 +50,10 @@ Deploy as prototype, go to the Dev Portal and try out
 
 ### Apply Policies (use the petstore APIs):
 
-Show the following tabs/features;
+Show the following tabs/features:
+
+TRANSPORT LEVEL SECURITY
+  (to use it: add the certificate Add certificate certificate.crt)
 
 APPLICATION LEVEL SECURITY
 
