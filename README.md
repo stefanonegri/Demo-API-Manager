@@ -70,3 +70,18 @@ BACKEND THROUGHPUT
 Resource -> Throttling
 
 Documentation
+
+## Consumer (and user) Experience
+
+Show Dev Portal features: brownse APIs, try Petstore API, Create APP (OAuth token, Code enable, 10PerMin); generate keys, subscribe with Guest
+
+callback url: http://127.0.0.1:5000/
+
+Throttling: Throttling: for ((i=1;i<=15;i++)); do sh PetstoreAPI.sh ; done
+
+Show Alerts
+
+## Back to Developer Experience
+Create API from command line
+
+Show and try versioning and API Products
