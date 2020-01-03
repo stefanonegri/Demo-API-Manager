@@ -34,3 +34,36 @@ SOAP Endpoint: (http://ws.cdyne.com/phoneverify/phoneverify.asmx?wsdl; EP:http:/
 GraphQL: (download the schema from: https://api.graph.cool/simple/v1/swapi; EP: the same (TBC))
 
 websocket: (TBC)
+
+### Prototype (use the petstore APIs):
+for the GET pet/{petid} resource implement the follwing:
+
+mc.setProperty('CONTENT_TYPE', 'application/json');
+
+var petId = mc.getProperty('uri.var.petId');
+
+var myPayload = {"id": petId,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"};
+
+mc.setPayloadJSON(myPayload);
+
+Deploy as prototype, go to the Dev Portal and try out
+
+### Apply Policies (use the petstore APIs):
+
+Show the following tabs/features;
+
+APPLICATION LEVEL SECURITY
+
+CORS
+
+SCHEMA VALIDATION
+
+MESSAGE MEDIATION
+
+CACHING
+
+BACKEND THROUGHPUT
+
+Resource -> Throttling
+
+Documentation
