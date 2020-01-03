@@ -1,0 +1,6 @@
+./apictl add-env -e dev --registration https://localhost:9443/client-registration/v0.15/register --apim https://localhost:9443 --token https://localhost:8243/token
+./apictl login dev -k
+./apictl list apis -e dev -k
+./apictl list apps -e dev -k
+./apictl init Aviation --oas https://api.apis.guru/v2/specs/aviationdata.systems/v1/swagger.json
+./apictl import-api -f Aviation -e dev -k
