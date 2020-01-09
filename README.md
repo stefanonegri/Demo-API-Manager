@@ -22,6 +22,7 @@ Install WSO2 API Manager APICtl;
 ### Import Countries API (Countries_1.0.0.zip) preserving the owner
 Example: apictl import-api -f /Users/stefanonegri/Downloads/Countries_1.0.0.zip -e demo -k
 ### Run Countries APIs several times (for Analytics purposes)
+for example run the following command with a valid token: for ((i=1;i<=15;i++)); do sh CountryAPI.sh ; done
 
 ## Developer Experience
 
