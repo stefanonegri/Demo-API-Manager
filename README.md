@@ -3,9 +3,8 @@ demo of APIM with consumer and developer view
 
 ## Prerequisites:
 
-Install WSO2 API Manager 3.0.0 and enable analytics;
-
-Install WSO2 API Manager Analytics 3.0.0;
+Install WSO2 API Manager 4.4.0
+Configure Choreo Analytics (see https://apim.docs.wso2.com/en/4.4.0/api-analytics/choreo-analytics/getting-started-guide/#!)
 
 Install WSO2 API Manager APICtl;
 
