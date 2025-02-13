@@ -94,5 +94,15 @@ show API Products with Countries and Aviation APIs
 ### Show Admin Console
 ### Show APIM Admin
 
+## Use an external Key Manager (Keycloak)
+### Prerequisites
+Download and install Keycloak (https://www.keycloak.org/downloads)
+
+Run keycloack: [KCfolder]/bin ./kc.sh start-dev
+
+Configue KC as reported here: https://apim.docs.wso2.com/en/latest/administer/key-managers/configure-keycloak-connector/
+### Tasks
+Go to the Developer Portal and create a new Application
+
 
 
