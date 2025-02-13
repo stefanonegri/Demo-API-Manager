@@ -96,13 +96,18 @@ show API Products with Countries and Aviation APIs
 
 ## Use an external Key Manager (Keycloak)
 ### Prerequisites
-Download and install Keycloak (https://www.keycloak.org/downloads)
-
-Run keycloack: [KCfolder]/bin ./kc.sh start-dev
-
-Configue KC as reported here: https://apim.docs.wso2.com/en/latest/administer/key-managers/configure-keycloak-connector/
+1. Download and install Keycloak (https://www.keycloak.org/downloads)
+2. Run keycloack: [KCfolder]/bin ./kc.sh start-dev
+3. Configue KC as reported here: https://apim.docs.wso2.com/en/latest/administer/key-managers/configure-keycloak-connector/
 ### Tasks
-Go to the Developer Portal and create a new Application
+1. Go to the Developer Portal and create a new Application. Open the OAuth2 Tokens
+2. Show that you can provide existing keys or create from the scretch
+3. Create Keys
+4. Create token
+5. In order to create token with scopes (for example read:pets)
+   a. Go to the Keycloak console at http://localhost:8080
+   b. Go to Client Scope and create the scope read:pets (take the default values)
+   c. Enable the 'Include in token scope'
 
 
 
