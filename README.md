@@ -17,9 +17,9 @@ Install WSO2 API Manager APICtl;
   consumer (roles: Internal/subscriber); developer (roles: Internal/subscriber, Internal/creator, Internal/publisher); user (ReadPermission)
 ### Add custom throttling policies:
   a - Application Policy: 10 per Min; 
-  b - Subscription Policy (Guest: 5 per min.)
+  b - Subscription P./ap  olicy (Guest: 5 per min.)
 ### Import Countries API (Countries_1.0.0.zip) preserving the owner
-Example: apictl import-api -f /Users/stefanonegri/Downloads/Countries_1.0.0.zip -e demo -k
+Example: apictl import api -f /Users/stefanonegri/Downloads/Countries_1.0.0.zip -e demo -k
 ### Run Countries APIs several times (for Analytics purposes)
 for example run the following command with a valid token: for ((i=1;i<=15;i++)); do sh CountryAPI.sh ; done
 
