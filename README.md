@@ -16,10 +16,11 @@ Install WSO2 API Manager APICtl;
 ### Create the following users:
   consumer (roles: Internal/subscriber); developer (roles: Internal/subscriber, Internal/creator, Internal/publisher); user (ReadPermission)
 ### Add custom throttling policies:
-  a - Application Policy: 10 per Min; 
+  a - Application Policy: 10 per Min;  
   b - Subscription P./ap  olicy (Guest: 5 per min.)
 ### Import Countries API (Countries_1.0.0.zip) preserving the owner
-Example: apictl import api -f /Users/stefanonegri/Downloads/Countries_1.0.0.zip -e demo -k
+Example: ./apictl import api -f CountryAPI/Country_1.0.zip -e demo  
+Deploy the imported API
 ### Run Countries APIs several times (for Analytics purposes)
 for example run the following command with a valid token: for ((i=1;i<=15;i++)); do sh CountryAPI.sh ; done
 
@@ -104,10 +105,10 @@ show API Products with Countries and Aviation APIs
 2. Show that you can provide existing keys or create from the scretch
 3. Create Keys
 4. Create token
-5. In order to create token with scopes (for example read:pets)
-   a. Go to the Keycloak console at http://localhost:8080
-   b. Go to Client Scope and create the scope read:pets (take the default values)
-   c. Enable the 'Include in token scope'
+5. In order to create token with scopes (for example read:pets)  
+   a. Go to the Keycloak console at http://localhost:8080  
+   b. Go to Client Scope and create the scope read:pets (take the default values)  
+   c. Enable the 'Include in token scope'  
 
 
 
