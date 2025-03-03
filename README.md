@@ -11,6 +11,15 @@ Install WSO2 API Manager APICtl;
 
 ## Pre tasks:
 
+### Enable Choreo Analytics
+### Configure open telemetry
+#### Download Jaeger
+Download it from here: https://www.jaegertracing.io/download/#binaries ( tested version 1.62)
+#### Run Jaeger
+Run the command: ./jaeger-all-in-one  
+Check that it is up an running accessing http://localhost:16686
+#### Configure APIM
+see the documentation here: https://apim.docs.wso2.com/en/latest/observe/api-manager/traces/monitoring-with-opentelemetry/
 ### Create the following roles:
   WritePermission, ReadPermission (no permissions, only for scopes)
 ### Create the following users:
@@ -91,9 +100,12 @@ show API Products with Countries and Aviation APIs
 
 ## ADMIN Exerience
 
-### Show Developer and Consumer Analytics
-### Show Admin Console
+###  Analytics & Tracing
+Login Choreo Analytics and show how Choreo Analytics provide statistic info on traffic, errors etc  
+Login Jaeger @ localhost:16686, select API Gateway as a service and search: show how you can retrieve tracing info for each call
 ### Show APIM Admin
+### Explain / show APICTL for devops activities
+and REST APIS 
 
 ## Use an external Key Manager (Keycloak)
 ### Prerequisites
